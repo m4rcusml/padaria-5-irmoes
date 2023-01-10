@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.box {
+    background-color: var(--cor-fundo2);
+    max-width: 95%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img {
+    margin-left: 10px;
+    width: 33%;
+    flex-shrink: 0;
+}
+
+.box > #sobre {
+    text-align: center;
+    margin: 0 20px;
+}

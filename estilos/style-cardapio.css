@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.box-texto ul {
+    list-style: none;
+    display: flex;
+    flex-flow: column wrap;
+    height: 80px;
+    margin-left: 1em;
+}

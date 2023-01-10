@@ -17,6 +17,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -78,7 +79,7 @@ body {
     height: 100%;
 }
 
-#right > .imagem {
+#right > #imagem-fundo {
     background-image: url('../imagens/frente01.jpeg');
     background-attachment: fixed;
     background-position: left center;

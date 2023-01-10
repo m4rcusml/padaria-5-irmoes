@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.box-texto {
+    align-self: flex-start;
+    width: 67%;
+    padding: 10px;
+}
+
+.box-texto h3 {
+    background-color: white;
+    font-size: medium;
+}
+
+.box-texto p, .box-texto h3 {
+    padding: 1px 1em;
+}
