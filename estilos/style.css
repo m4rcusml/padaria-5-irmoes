@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-fundo: #E3E3E3;
+    --cor-fundo2: #E7CDAF;
+    --cor-botao: #7EC993;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    display: flex;
+}
+
+#left {
+    order: -1;
+    width: 50%;
+    height: 100%;
+    background-color: var(--cor-fundo2);
+}
+
+#left > img {
+    width: 40%;
+    margin: 30px auto;
+    display: block;
+}
+
+#left > #login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+#login > input, #login > #btn-login {
+    outline: none;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    border-radius: 20px;
+}
+
+#login > input {
+    width: 290px;
+    padding: 0 0.5em;
+}
+
+#login > #btn-login {
+    width: 300px;
+    background-color: var(--cor-botao);
+}
+
+#login > #btn-login:hover {
+    cursor: pointer;
+}
+
+#login > #btn-login:focus {
+    box-shadow: inset 0 0 10px black;
+}
+
+#right {
+    width: 50%;
+    height: 100%;
+}
+
+#right > .imagem {
+    background-image: url('../imagens/frente01.jpeg');
+    background-attachment: fixed;
+    background-position: left center;
+    background-size: contain;
+    height: 94%;
+    margin: 1em;
+    border-radius: 10px;
+}
